@@ -13,6 +13,6 @@ module.exports = async function(context) {
         headers: {
             'content-type': 'application/json'
         },
-        body: { count: context.bindings.outputDocument.count }
+        body: { id, count: context.bindings.outputDocument.count }
     };
 }
